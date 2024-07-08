@@ -13,6 +13,7 @@
 		EB3783532C3C51ED00204447 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3783522C3C51ED00204447 /* Preview Assets.xcassets */; };
 		EB37835A2C3C57E800204447 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3783592C3C57E800204447 /* Gradients.swift */; };
 		EB37835C2C3C583000204447 /* ButtonsAndImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37835B2C3C583000204447 /* ButtonsAndImages.swift */; };
+		EB37835E2C3C5A4B00204447 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37835D2C3C5A4B00204447 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB3783522C3C51ED00204447 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB3783592C3C57E800204447 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		EB37835B2C3C583000204447 /* ButtonsAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImages.swift; sourceTree = "<group>"; };
+		EB37835D2C3C5A4B00204447 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB37834D2C3C51EB00204447 /* ContentView.swift */,
 				EB3783592C3C57E800204447 /* Gradients.swift */,
 				EB37835B2C3C583000204447 /* ButtonsAndImages.swift */,
+				EB37835D2C3C5A4B00204447 /* Alerts.swift */,
 				EB37834F2C3C51ED00204447 /* Assets.xcassets */,
 				EB3783512C3C51ED00204447 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB37834E2C3C51EB00204447 /* ContentView.swift in Sources */,
+				EB37835E2C3C5A4B00204447 /* Alerts.swift in Sources */,
 				EB37835C2C3C583000204447 /* ButtonsAndImages.swift in Sources */,
 				EB37834C2C3C51EB00204447 /* GuessTheFlagsApp.swift in Sources */,
 				EB37835A2C3C57E800204447 /* Gradients.swift in Sources */,
