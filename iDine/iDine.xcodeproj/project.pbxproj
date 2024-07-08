@@ -18,6 +18,7 @@
 		EB8680C92C3BD8C1002F7870 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680C82C3BD8C1002F7870 /* ItemRow.swift */; };
 		EB8680CB2C3BDCFD002F7870 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */; };
 		EB8680CD2C3BE7A8002F7870 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680CC2C3BE7A8002F7870 /* OrderView.swift */; };
+		EB8680CF2C3BE9CB002F7870 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680CE2C3BE9CB002F7870 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EB8680C82C3BD8C1002F7870 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		EB8680CC2C3BE7A8002F7870 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		EB8680CE2C3BE9CB002F7870 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				EB8680B42C3BD46B002F7870 /* ContentView.swift */,
 				EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */,
 				EB8680CC2C3BE7A8002F7870 /* OrderView.swift */,
+				EB8680CE2C3BE9CB002F7870 /* MainView.swift */,
 				EB8680C82C3BD8C1002F7870 /* ItemRow.swift */,
 				EB8680C12C3BD4BB002F7870 /* Helper.swift */,
 				EB8680C02C3BD4BB002F7870 /* menu.json */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8680CB2C3BDCFD002F7870 /* ItemDetail.swift in Sources */,
+				EB8680CF2C3BE9CB002F7870 /* MainView.swift in Sources */,
 				EB8680CD2C3BE7A8002F7870 /* OrderView.swift in Sources */,
 				EB8680B52C3BD46B002F7870 /* ContentView.swift in Sources */,
 				EB8680B32C3BD46B002F7870 /* iDineApp.swift in Sources */,
