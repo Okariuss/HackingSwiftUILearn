@@ -16,6 +16,7 @@
 		EB8680C62C3BD4BB002F7870 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680C22C3BD4BB002F7870 /* Menu.swift */; };
 		EB8680C72C3BD4BB002F7870 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680C32C3BD4BB002F7870 /* Order.swift */; };
 		EB8680C92C3BD8C1002F7870 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680C82C3BD8C1002F7870 /* ItemRow.swift */; };
+		EB8680CB2C3BDCFD002F7870 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EB8680C22C3BD4BB002F7870 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		EB8680C32C3BD4BB002F7870 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		EB8680C82C3BD8C1002F7870 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				EB8680B22C3BD46B002F7870 /* iDineApp.swift */,
 				EB8680B42C3BD46B002F7870 /* ContentView.swift */,
+				EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */,
 				EB8680C82C3BD8C1002F7870 /* ItemRow.swift */,
 				EB8680C12C3BD4BB002F7870 /* Helper.swift */,
 				EB8680C02C3BD4BB002F7870 /* menu.json */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8680CB2C3BDCFD002F7870 /* ItemDetail.swift in Sources */,
 				EB8680B52C3BD46B002F7870 /* ContentView.swift in Sources */,
 				EB8680B32C3BD46B002F7870 /* iDineApp.swift in Sources */,
 				EB8680C72C3BD4BB002F7870 /* Order.swift in Sources */,
