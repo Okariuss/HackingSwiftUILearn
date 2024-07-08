@@ -11,6 +11,8 @@ struct ItemDetail: View {
     
     let item: MenuItem
     
+    @EnvironmentObject var order: Order
+    
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             Image(item.mainImage)
@@ -25,6 +27,12 @@ struct ItemDetail: View {
         }
         Text(item.description)
             .padding()
+        
+        Button("Order This") {
+            order.add(item: item)
+        }
+        .buttonStyle(BorderedProminentButtonStyle())
+
         Spacer()
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)
@@ -34,5 +42,6 @@ struct ItemDetail: View {
 #Preview {
     NavigationStack {
         ItemDetail(item: .example)
+            .environmentObject(Order())
     }
 }
