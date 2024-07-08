@@ -12,6 +12,7 @@ struct ItemDetail: View {
     let item: MenuItem
     
     @EnvironmentObject var order: Order
+    @EnvironmentObject var favorite: Favorite
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
@@ -32,10 +33,21 @@ struct ItemDetail: View {
             order.add(item: item)
         }
         .buttonStyle(BorderedProminentButtonStyle())
-
+        
         Spacer()
-        .navigationTitle(item.name)
-        .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle(item.name)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        favorite.toggle(item: item)
+                    }) {
+                        Image(systemName: favorite.isFavorite(item: item) ? "heart.fill" : "heart")
+                            .foregroundStyle(.red)
+                    }
+                    .animation(.default, value: favorite.isFavorite(item: item))
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -43,5 +55,6 @@ struct ItemDetail: View {
     NavigationStack {
         ItemDetail(item: .example)
             .environmentObject(Order())
+            .environmentObject(Favorite())
     }
 }

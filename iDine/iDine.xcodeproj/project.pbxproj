@@ -20,6 +20,8 @@
 		EB8680CD2C3BE7A8002F7870 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680CC2C3BE7A8002F7870 /* OrderView.swift */; };
 		EB8680CF2C3BE9CB002F7870 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680CE2C3BE9CB002F7870 /* MainView.swift */; };
 		EB8680D12C3BEBBF002F7870 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680D02C3BEBBF002F7870 /* CheckoutView.swift */; };
+		EB8680D32C3C01E7002F7870 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680D22C3C01E7002F7870 /* FavoriteView.swift */; };
+		EB8680D52C3C0238002F7870 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8680D42C3C0238002F7870 /* Favorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		EB8680CC2C3BE7A8002F7870 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		EB8680CE2C3BE9CB002F7870 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EB8680D02C3BEBBF002F7870 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		EB8680D22C3C01E7002F7870 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		EB8680D42C3C0238002F7870 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +79,13 @@
 				EB8680CA2C3BDCFD002F7870 /* ItemDetail.swift */,
 				EB8680CC2C3BE7A8002F7870 /* OrderView.swift */,
 				EB8680CE2C3BE9CB002F7870 /* MainView.swift */,
+				EB8680D22C3C01E7002F7870 /* FavoriteView.swift */,
 				EB8680C82C3BD8C1002F7870 /* ItemRow.swift */,
 				EB8680C12C3BD4BB002F7870 /* Helper.swift */,
 				EB8680C02C3BD4BB002F7870 /* menu.json */,
 				EB8680C22C3BD4BB002F7870 /* Menu.swift */,
 				EB8680C32C3BD4BB002F7870 /* Order.swift */,
+				EB8680D42C3C0238002F7870 /* Favorite.swift */,
 				EB8680B62C3BD46E002F7870 /* Assets.xcassets */,
 				EB8680B82C3BD46E002F7870 /* Preview Content */,
 			);
@@ -170,9 +176,11 @@
 				EB8680D12C3BEBBF002F7870 /* CheckoutView.swift in Sources */,
 				EB8680CD2C3BE7A8002F7870 /* OrderView.swift in Sources */,
 				EB8680B52C3BD46B002F7870 /* ContentView.swift in Sources */,
+				EB8680D32C3C01E7002F7870 /* FavoriteView.swift in Sources */,
 				EB8680B32C3BD46B002F7870 /* iDineApp.swift in Sources */,
 				EB8680C72C3BD4BB002F7870 /* Order.swift in Sources */,
 				EB8680C92C3BD8C1002F7870 /* ItemRow.swift in Sources */,
+				EB8680D52C3C0238002F7870 /* Favorite.swift in Sources */,
 				EB8680C62C3BD4BB002F7870 /* Menu.swift in Sources */,
 				EB8680C52C3BD4BB002F7870 /* Helper.swift in Sources */,
 			);
