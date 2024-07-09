@@ -13,6 +13,7 @@
 		EB4A2CFC2C3D551E00495D3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4A2CFB2C3D551E00495D3A /* Preview Assets.xcassets */; };
 		EB4A2D032C3D55C500495D3A /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2D022C3D55C500495D3A /* StepperView.swift */; };
 		EB4A2D052C3D574800495D3A /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2D042C3D574800495D3A /* DatePickerView.swift */; };
+		EB4A2D0B2C3D644E00495D3A /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2D0A2C3D644E00495D3A /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB4A2CFB2C3D551E00495D3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB4A2D022C3D55C500495D3A /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		EB4A2D042C3D574800495D3A /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		EB4A2D0A2C3D644E00495D3A /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				EB4A2CF42C3D551C00495D3A /* BetterRestApp.swift */,
 				EB4A2CF62C3D551C00495D3A /* ContentView.swift */,
+				EB4A2D0A2C3D644E00495D3A /* SleepCalculator.mlmodel */,
 				EB4A2D022C3D55C500495D3A /* StepperView.swift */,
 				EB4A2D042C3D574800495D3A /* DatePickerView.swift */,
 				EB4A2CF82C3D551E00495D3A /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				EB4A2CF72C3D551C00495D3A /* ContentView.swift in Sources */,
 				EB4A2D032C3D55C500495D3A /* StepperView.swift in Sources */,
+				EB4A2D0B2C3D644E00495D3A /* SleepCalculator.mlmodel in Sources */,
 				EB4A2D052C3D574800495D3A /* DatePickerView.swift in Sources */,
 				EB4A2CF52C3D551C00495D3A /* BetterRestApp.swift in Sources */,
 			);
