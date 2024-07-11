@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let astronauts = Bundle.main.decode("astronauts.json")
+    
     var body: some View {
         
-        ImageResizing()
+        Text("\(astronauts.count)")
         
     }
 }
