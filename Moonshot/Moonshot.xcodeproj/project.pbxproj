@@ -15,6 +15,7 @@
 		EB8B60292C40479E002E0C5F /* ScrollViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B60282C40479E002E0C5F /* ScrollViewLearn.swift */; };
 		EB8B602B2C404B92002E0C5F /* NavigationLinkLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B602A2C404B92002E0C5F /* NavigationLinkLearn.swift */; };
 		EB8B602D2C404ED4002E0C5F /* WorkingWithCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B602C2C404ED4002E0C5F /* WorkingWithCodable.swift */; };
+		EB8B602F2C4076BF002E0C5F /* GridViewLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B602E2C4076BF002E0C5F /* GridViewLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EB8B60282C40479E002E0C5F /* ScrollViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLearn.swift; sourceTree = "<group>"; };
 		EB8B602A2C404B92002E0C5F /* NavigationLinkLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkLearn.swift; sourceTree = "<group>"; };
 		EB8B602C2C404ED4002E0C5F /* WorkingWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithCodable.swift; sourceTree = "<group>"; };
+		EB8B602E2C4076BF002E0C5F /* GridViewLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EB8B60282C40479E002E0C5F /* ScrollViewLearn.swift */,
 				EB8B602A2C404B92002E0C5F /* NavigationLinkLearn.swift */,
 				EB8B602C2C404ED4002E0C5F /* WorkingWithCodable.swift */,
+				EB8B602E2C4076BF002E0C5F /* GridViewLearning.swift */,
 				EB8B601C2C3FE543002E0C5F /* Assets.xcassets */,
 				EB8B601E2C3FE543002E0C5F /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 				EB8B602D2C404ED4002E0C5F /* WorkingWithCodable.swift in Sources */,
 				EB8B60272C3FE7AB002E0C5F /* ImageResizing.swift in Sources */,
 				EB8B601B2C3FE541002E0C5F /* ContentView.swift in Sources */,
+				EB8B602F2C4076BF002E0C5F /* GridViewLearning.swift in Sources */,
 				EB8B60192C3FE541002E0C5F /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
