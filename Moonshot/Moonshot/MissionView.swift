@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MissionView: View {
     
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    
     struct CrewMember {
         let role: String
         let astronaut: Astronaut
@@ -39,6 +41,10 @@ struct MissionView: View {
                     }
                     .padding(.top)
                 
+                Text(mission.formattedLaunchDate)
+                    .font(.title)
+                    .padding(.bottom)
+                
                 VStack(alignment: .leading) {
                     Text("Mission Highlights")
                         .font(.title.bold())
@@ -48,36 +54,7 @@ struct MissionView: View {
                 }
                 .padding(.horizontal)
                 
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack {
-                        ForEach(crew, id: \.role) { crewMember in
-                            NavigationLink {
-                                AstronautView(astronaut: crewMember.astronaut)
-                            } label: {
-                                HStack {
-                                    Image(crewMember.astronaut.id)
-                                        .resizable()
-                                        .frame(width: 104, height: 72)
-                                        .clipShape(.capsule)
-                                        .overlay(
-                                            Capsule()
-                                                .strokeBorder(.white, lineWidth: 1)
-                                        )
-                                    
-                                    VStack(alignment: .leading) {
-                                        Text(crewMember.astronaut.name)
-                                            .foregroundStyle(.white)
-                                            .font(.headline)
-                                        Text(crewMember.role)
-                                            .foregroundStyle(.white.opacity(0.5))
-                                    }
-                                }
-                                .padding(.horizontal)
-                            }
-
-                        }
-                    }
-                }
+                ShowAstronautsView(mission: mission, astronauts: astronauts, crew: crew)
             }
             .padding(.bottom)
         }

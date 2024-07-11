@@ -24,6 +24,7 @@
 		EB8B603B2C408259002E0C5F /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B603A2C408259002E0C5F /* Color-Theme.swift */; };
 		EB8B603D2C40854A002E0C5F /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B603C2C40854A002E0C5F /* MissionView.swift */; };
 		EB8B603F2C408CAE002E0C5F /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B603E2C408CAE002E0C5F /* AstronautView.swift */; };
+		EB8B60412C408EB2002E0C5F /* ShowAstronautsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B60402C408EB2002E0C5F /* ShowAstronautsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		EB8B603A2C408259002E0C5F /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		EB8B603C2C40854A002E0C5F /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		EB8B603E2C408CAE002E0C5F /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		EB8B60402C408EB2002E0C5F /* ShowAstronautsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAstronautsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EB8B60182C3FE541002E0C5F /* MoonshotApp.swift */,
 				EB8B601A2C3FE541002E0C5F /* ContentView.swift */,
 				EB8B603C2C40854A002E0C5F /* MissionView.swift */,
+				EB8B60402C408EB2002E0C5F /* ShowAstronautsView.swift */,
 				EB8B603E2C408CAE002E0C5F /* AstronautView.swift */,
 				EB8B603A2C408259002E0C5F /* Color-Theme.swift */,
 				EB8B60342C407979002E0C5F /* Astronaut.swift */,
@@ -191,6 +194,7 @@
 				EB8B601B2C3FE541002E0C5F /* ContentView.swift in Sources */,
 				EB8B602F2C4076BF002E0C5F /* GridViewLearning.swift in Sources */,
 				EB8B60192C3FE541002E0C5F /* MoonshotApp.swift in Sources */,
+				EB8B60412C408EB2002E0C5F /* ShowAstronautsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
