@@ -8,7 +8,7 @@
 import Foundation
 
 @Observable
-class User {
+class UserForClass {
     var firstName = "Bilbo"
     var lastName = "Baggins"
 }

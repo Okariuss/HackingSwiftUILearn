@@ -10,7 +10,7 @@ import Observation
 
 struct StateWithClasses: View {
     
-    @State private var user = User()
+    @State private var user = UserForClass()
     
     var body: some View {
         
