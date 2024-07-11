@@ -11,6 +11,7 @@
 		EB8B601B2C3FE541002E0C5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B601A2C3FE541002E0C5F /* ContentView.swift */; };
 		EB8B601D2C3FE543002E0C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B601C2C3FE543002E0C5F /* Assets.xcassets */; };
 		EB8B60202C3FE543002E0C5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B601F2C3FE543002E0C5F /* Preview Assets.xcassets */; };
+		EB8B60272C3FE7AB002E0C5F /* ImageResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B60262C3FE7AB002E0C5F /* ImageResizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB8B601A2C3FE541002E0C5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB8B601C2C3FE543002E0C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8B601F2C3FE543002E0C5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB8B60262C3FE7AB002E0C5F /* ImageResizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB8B60182C3FE541002E0C5F /* MoonshotApp.swift */,
 				EB8B601A2C3FE541002E0C5F /* ContentView.swift */,
+				EB8B60262C3FE7AB002E0C5F /* ImageResizing.swift */,
 				EB8B601C2C3FE543002E0C5F /* Assets.xcassets */,
 				EB8B601E2C3FE543002E0C5F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8B60272C3FE7AB002E0C5F /* ImageResizing.swift in Sources */,
 				EB8B601B2C3FE541002E0C5F /* ContentView.swift in Sources */,
 				EB8B60192C3FE541002E0C5F /* MoonshotApp.swift in Sources */,
 			);
