@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB8B60072C3FC3AC002E0C5F /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B60062C3FC3AC002E0C5F /* ExpenseItem.swift */; };
+		EB8B60092C3FC3E7002E0C5F /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B60082C3FC3E7002E0C5F /* Expenses.swift */; };
 		EBCE6E3D2C3EADD500BF476D /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE6E3C2C3EADD500BF476D /* iExpenseApp.swift */; };
 		EBCE6E3F2C3EADD500BF476D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE6E3E2C3EADD500BF476D /* ContentView.swift */; };
 		EBCE6E412C3EADD700BF476D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCE6E402C3EADD700BF476D /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB8B60062C3FC3AC002E0C5F /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		EB8B60082C3FC3E7002E0C5F /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		EBCE6E392C3EADD500BF476D /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCE6E3C2C3EADD500BF476D /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		EBCE6E3E2C3EADD500BF476D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 			children = (
 				EBCE6E3C2C3EADD500BF476D /* iExpenseApp.swift */,
 				EBCE6E3E2C3EADD500BF476D /* ContentView.swift */,
+				EB8B60082C3FC3E7002E0C5F /* Expenses.swift */,
+				EB8B60062C3FC3AC002E0C5F /* ExpenseItem.swift */,
 				EBCE6E562C3EBDA800BF476D /* ArchivingWithCodable.swift */,
 				EBCE6E542C3EBAB600BF476D /* UserDefaultsUsage.swift */,
 				EBCE6E522C3EB7B900BF476D /* OnDeleteUsage.swift */,
@@ -158,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8B60092C3FC3E7002E0C5F /* Expenses.swift in Sources */,
 				EBCE6E4D2C3EAF0B00BF476D /* UserForClass.swift in Sources */,
 				EBCE6E512C3EB6D200BF476D /* FirstView.swift in Sources */,
 				EBCE6E4F2C3EB46D00BF476D /* SecondView.swift in Sources */,
@@ -165,6 +172,7 @@
 				EBCE6E572C3EBDA800BF476D /* ArchivingWithCodable.swift in Sources */,
 				EBCE6E3D2C3EADD500BF476D /* iExpenseApp.swift in Sources */,
 				EBCE6E532C3EB7B900BF476D /* OnDeleteUsage.swift in Sources */,
+				EB8B60072C3FC3AC002E0C5F /* ExpenseItem.swift in Sources */,
 				EBCE6E552C3EBAB600BF476D /* UserDefaultsUsage.swift in Sources */,
 				EBCE6E4B2C3EAEF600BF476D /* StateWithClasses.swift in Sources */,
 			);
