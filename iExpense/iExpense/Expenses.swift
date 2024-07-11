@@ -18,6 +18,16 @@ final class Expenses {
         }
     }
     
+    var groupedItems: [GroupedExpenseItem] {
+        let personalItems = items.filter { $0.type == "Personal" }
+        let businessItems = items.filter { $0.type == "Business" }
+
+        return [
+            GroupedExpenseItem(type: "Personal", items: personalItems),
+            GroupedExpenseItem(type: "Business", items: businessItems)
+        ].filter { !$0.items.isEmpty }
+    }
+    
     init() {
         if let savedItems = UserDefaults.standard.data(forKey: "Items") {
             if let decodedItems = try? JSONDecoder().decode([ExpenseItem].self, from: savedItems) {

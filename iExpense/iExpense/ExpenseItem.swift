@@ -12,3 +12,9 @@ struct ExpenseItem: Identifiable, Codable {
     let name, type: String
     let amount: Double
 }
+
+struct GroupedExpenseItem: Identifiable, Codable {
+    var id = UUID()
+    let type: String
+    let items: [ExpenseItem]
+}
