@@ -9,7 +9,19 @@ import SwiftUI
 
 struct CustomNavBar: View {
     var body: some View {
-        ToolbarExactLocation()
+        EditableNavigationTitle()
+    }
+}
+
+struct EditableNavigationTitle: View {
+    @State private var title = "SwiftUI"
+    
+    var body: some View {
+        NavigationStack {
+            Text("Hello, world!")
+                .navigationTitle($title)
+                .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
