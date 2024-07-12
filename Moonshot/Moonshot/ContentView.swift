@@ -39,6 +39,9 @@ struct ContentView: View {
                     }
                 }
             }
+            .navigationDestination(for: Mission.self) { mission in
+                MissionView(mission: mission, astronauts: astronauts)
+            }
         }
     }
 }
@@ -81,9 +84,7 @@ struct MissionItemView: View {
     @State private var isVisible = false
     
     var body: some View {
-        NavigationLink {
-            MissionView(mission: mission, astronauts: astronauts)
-        } label: {
+        NavigationLink(value: mission) {
             VStack {
                 Image(mission.image)
                     .resizable()
