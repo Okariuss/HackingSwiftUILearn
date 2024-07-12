@@ -10,13 +10,103 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        RootView()
+        RootViewUsingPathStore()
+    }
+}
+
+struct RootViewUsingPathStore: View {
+    
+    @State private var pathStore = PathStoreNormal()
+    
+    var body: some View {
+        NavigationStack(path: $pathStore.path) {
+            SecondViewUsingPathStore(number: 0)
+                .navigationDestination(for: Int.self) { i in
+                    SecondViewUsingPathStore(number: i)
+                }
+        }
+    }
+}
+
+struct SecondViewUsingPathStore: View {
+    var number: Int
+    
+    var body: some View {
+        NavigationLink("Go to random number", value: Int.random(in: 1...1000))
+            .navigationTitle("Number: \(number)")
+    }
+}
+
+@Observable
+class PathStoreNormal {
+    var path: [Int] {
+        didSet {
+            save()
+        }
+    }
+    
+    private let savePath = URL.documentsDirectory.appending(path: "SavedPath")
+    
+    init() {
+        if let data = try? Data(contentsOf: savePath) {
+            if let decoded = try? JSONDecoder().decode([Int].self, from: data) {
+                path = decoded
+                return
+            }
+        }
+        
+        path = []
+    }
+    
+    func save() {
+        do {
+            let data = try? JSONEncoder().encode(path)
+            try data?.write(to: savePath)
+        } catch {
+            print("Failed to save navigation data")
+        }
+    }
+}
+
+@Observable
+class PathStoreNavigation {
+    
+    var path: NavigationPath {
+        didSet {
+            save()
+        }
+    }
+    
+    private let savePath = URL.documentsDirectory.appending(path: "SavedPath")
+    
+    init() {
+        
+        
+        
+        if let data = try? Data(contentsOf: savePath) {
+            if let decoded = try? JSONDecoder().decode(NavigationPath.CodableRepresentation.self, from: data) {
+                path = NavigationPath(decoded)
+                return
+            }
+        }
+        
+        path = NavigationPath()
+    }
+    
+    func save() {
+        guard let representation = path.codable else { return }
+        do {
+            let data = try? JSONEncoder().encode(representation)
+            try data?.write(to: savePath)
+        } catch {
+            print("Failed to save navigation data")
+        }
     }
 }
 
 struct RootView: View {
     
-    @State private var path = [Int]() // or NavigationPath
+    @State private var path = NavigationPath() // or [Int]()
     
     var body: some View {
         NavigationStack(path: $path) {
@@ -30,16 +120,16 @@ struct RootView: View {
 
 struct SecondView: View {
     var number: Int
-    @Binding var path: [Int] // or NavigationPath
+    @Binding var path: NavigationPath // or [Int]
     
     var body: some View {
         NavigationLink("Go to random number", value: Int.random(in: 1...1000))
             .navigationTitle("Number: \(number)")
             .toolbar {
                 Button("Home") {
-                    path.removeAll()
-//                    or
-//                    path = NavigationPath()
+                    path = NavigationPath()
+                    //  or
+                    //  path.removeAll()
                 }
             }
     }
