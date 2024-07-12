@@ -10,7 +10,38 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        NavigateDifferentTypes()
+        RootView()
+    }
+}
+
+struct RootView: View {
+    
+    @State private var path = [Int]() // or NavigationPath
+    
+    var body: some View {
+        NavigationStack(path: $path) {
+            SecondView(number: 0, path: $path)
+                .navigationDestination(for: Int.self) { i in
+                    SecondView(number: i, path: $path)
+                }
+        }
+    }
+}
+
+struct SecondView: View {
+    var number: Int
+    @Binding var path: [Int] // or NavigationPath
+    
+    var body: some View {
+        NavigationLink("Go to random number", value: Int.random(in: 1...1000))
+            .navigationTitle("Number: \(number)")
+            .toolbar {
+                Button("Home") {
+                    path.removeAll()
+//                    or
+//                    path = NavigationPath()
+                }
+            }
     }
 }
 
