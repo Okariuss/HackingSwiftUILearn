@@ -9,7 +9,37 @@ import SwiftUI
 
 struct CustomNavBar: View {
     var body: some View {
-        NavBarBackground()
+        ToolbarExactLocation()
+    }
+}
+
+struct ToolbarExactLocation: View {
+    var body: some View {
+        NavigationStack {
+            Text("Hello, world!")
+                .toolbar {
+                    ToolbarItemGroup(placement: .topBarLeading) {
+                        Button("Tap Me") {
+                            
+                        }
+                        
+                        Button("Or Tap Me") {
+                            
+                        }
+                    }
+//                    ToolbarItem(placement: .topBarLeading) {
+//                        Button("Tap Me") {
+//                            
+//                        }
+//                    }
+//                    
+//                    ToolbarItem(placement: .topBarLeading) {
+//                        Button("Or Tap Me") {
+//                            
+//                        }
+//                    }
+                }
+        }
     }
 }
 
