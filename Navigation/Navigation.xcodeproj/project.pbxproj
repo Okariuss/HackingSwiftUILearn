@@ -12,6 +12,7 @@
 		EB2E205A2C41038600D3B0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2E20592C41038600D3B0BB /* Assets.xcassets */; };
 		EB2E205D2C41038600D3B0BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2E205C2C41038600D3B0BB /* Preview Assets.xcassets */; };
 		EB2E20642C4103DA00D3B0BB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E20632C4103DA00D3B0BB /* DetailView.swift */; };
+		EB2E20662C4121B600D3B0BB /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E20652C4121B600D3B0BB /* CustomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EB2E20592C41038600D3B0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2E205C2C41038600D3B0BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB2E20632C4103DA00D3B0BB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EB2E20652C4121B600D3B0BB /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EB2E20552C41038500D3B0BB /* NavigationApp.swift */,
 				EB2E20572C41038500D3B0BB /* ContentView.swift */,
+				EB2E20652C4121B600D3B0BB /* CustomNavBar.swift */,
 				EB2E20632C4103DA00D3B0BB /* DetailView.swift */,
 				EB2E20592C41038600D3B0BB /* Assets.xcassets */,
 				EB2E205B2C41038600D3B0BB /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				EB2E20582C41038500D3B0BB /* ContentView.swift in Sources */,
 				EB2E20642C4103DA00D3B0BB /* DetailView.swift in Sources */,
+				EB2E20662C4121B600D3B0BB /* CustomNavBar.swift in Sources */,
 				EB2E20562C41038500D3B0BB /* NavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
