@@ -13,6 +13,7 @@
 		EB7DA26B2C49016B006E0B57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7DA26A2C49016B006E0B57 /* Preview Assets.xcassets */; };
 		EB7DA2742C490375006E0B57 /* URLSessionLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */; };
 		EB7DA2762C4908F9006E0B57 /* AsyncImageLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2752C4908F9006E0B57 /* AsyncImageLearn.swift */; };
+		EB7DA2782C490B72006E0B57 /* FormsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2772C490B72006E0B57 /* FormsLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB7DA26A2C49016B006E0B57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionLearn.swift; sourceTree = "<group>"; };
 		EB7DA2752C4908F9006E0B57 /* AsyncImageLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLearn.swift; sourceTree = "<group>"; };
+		EB7DA2772C490B72006E0B57 /* FormsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB7DA2652C49016A006E0B57 /* ContentView.swift */,
 				EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */,
 				EB7DA2752C4908F9006E0B57 /* AsyncImageLearn.swift */,
+				EB7DA2772C490B72006E0B57 /* FormsLearning.swift */,
 				EB7DA2672C49016B006E0B57 /* Assets.xcassets */,
 				EB7DA2692C49016B006E0B57 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				EB7DA2662C49016A006E0B57 /* ContentView.swift in Sources */,
 				EB7DA2742C490375006E0B57 /* URLSessionLearn.swift in Sources */,
 				EB7DA2642C49016A006E0B57 /* CupcakeCornerApp.swift in Sources */,
+				EB7DA2782C490B72006E0B57 /* FormsLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
