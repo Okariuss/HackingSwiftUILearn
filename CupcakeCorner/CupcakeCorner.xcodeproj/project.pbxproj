@@ -14,6 +14,7 @@
 		EB7DA2742C490375006E0B57 /* URLSessionLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */; };
 		EB7DA2762C4908F9006E0B57 /* AsyncImageLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2752C4908F9006E0B57 /* AsyncImageLearn.swift */; };
 		EB7DA2782C490B72006E0B57 /* FormsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2772C490B72006E0B57 /* FormsLearning.swift */; };
+		EB7DA27A2C49121C006E0B57 /* CodableObservableClassLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2792C49121C006E0B57 /* CodableObservableClassLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionLearn.swift; sourceTree = "<group>"; };
 		EB7DA2752C4908F9006E0B57 /* AsyncImageLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLearn.swift; sourceTree = "<group>"; };
 		EB7DA2772C490B72006E0B57 /* FormsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsLearning.swift; sourceTree = "<group>"; };
+		EB7DA2792C49121C006E0B57 /* CodableObservableClassLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableObservableClassLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */,
 				EB7DA2752C4908F9006E0B57 /* AsyncImageLearn.swift */,
 				EB7DA2772C490B72006E0B57 /* FormsLearning.swift */,
+				EB7DA2792C49121C006E0B57 /* CodableObservableClassLearn.swift */,
 				EB7DA2672C49016B006E0B57 /* Assets.xcassets */,
 				EB7DA2692C49016B006E0B57 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				EB7DA2742C490375006E0B57 /* URLSessionLearn.swift in Sources */,
 				EB7DA2642C49016A006E0B57 /* CupcakeCornerApp.swift in Sources */,
 				EB7DA2782C490B72006E0B57 /* FormsLearning.swift in Sources */,
+				EB7DA27A2C49121C006E0B57 /* CodableObservableClassLearn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
