@@ -18,6 +18,7 @@
 		EB7DA27C2C491381006E0B57 /* HapticEffectsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA27B2C491381006E0B57 /* HapticEffectsLearning.swift */; };
 		EB7DA27E2C49173B006E0B57 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA27D2C49173B006E0B57 /* Order.swift */; };
 		EB7DA2802C491BAC006E0B57 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA27F2C491BAC006E0B57 /* AddressView.swift */; };
+		EB7DA2822C491CA9006E0B57 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7DA2812C491CA9006E0B57 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EB7DA27B2C491381006E0B57 /* HapticEffectsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffectsLearning.swift; sourceTree = "<group>"; };
 		EB7DA27D2C49173B006E0B57 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		EB7DA27F2C491BAC006E0B57 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		EB7DA2812C491CA9006E0B57 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				EB7DA2632C49016A006E0B57 /* CupcakeCornerApp.swift */,
 				EB7DA2652C49016A006E0B57 /* ContentView.swift */,
+				EB7DA2812C491CA9006E0B57 /* CheckoutView.swift */,
 				EB7DA27F2C491BAC006E0B57 /* AddressView.swift */,
 				EB7DA27D2C49173B006E0B57 /* Order.swift */,
 				EB7DA2732C490375006E0B57 /* URLSessionLearn.swift */,
@@ -160,6 +163,7 @@
 			files = (
 				EB7DA2762C4908F9006E0B57 /* AsyncImageLearn.swift in Sources */,
 				EB7DA2662C49016A006E0B57 /* ContentView.swift in Sources */,
+				EB7DA2822C491CA9006E0B57 /* CheckoutView.swift in Sources */,
 				EB7DA27E2C49173B006E0B57 /* Order.swift in Sources */,
 				EB7DA2742C490375006E0B57 /* URLSessionLearn.swift in Sources */,
 				EB7DA27C2C491381006E0B57 /* HapticEffectsLearning.swift in Sources */,
