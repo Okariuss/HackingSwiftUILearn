@@ -25,8 +25,16 @@ struct DetailView: View {
             Text(book.review)
                 .padding()
             
-            RatingView(rating: .constant(book.rating))
-                .font(.largeTitle)
+            HStack {
+                Text(book.date.formattedCurrentDate())
+                    .font(.caption)
+                Spacer()
+                RatingView(rating: .constant(book.rating))
+                    .font(.title)
+            }
+            .padding()
+            
+            
             
             ZStack(alignment: .bottomTrailing) {
                 Image(book.genre)

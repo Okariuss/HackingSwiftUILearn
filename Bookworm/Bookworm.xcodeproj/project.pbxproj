@@ -19,6 +19,7 @@
 		EB8B53CC2C4BAC9F0081F46B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53CB2C4BAC9F0081F46B /* RatingView.swift */; };
 		EB8B53CE2C4BAF730081F46B /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53CD2C4BAF730081F46B /* EmojiRatingView.swift */; };
 		EB8B53D02C4BB3160081F46B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53CF2C4BB3160081F46B /* DetailView.swift */; };
+		EB8B53D22C4BC47B0081F46B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53D12C4BC47B0081F46B /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		EB8B53CB2C4BAC9F0081F46B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		EB8B53CD2C4BAF730081F46B /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		EB8B53CF2C4BB3160081F46B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EB8B53D12C4BC47B0081F46B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				EB09308D2C4A809F00242BD0 /* BookwormApp.swift */,
+				EB8B53D12C4BC47B0081F46B /* Date+Ext.swift */,
 				EB09308F2C4A809F00242BD0 /* ContentView.swift */,
 				EB8B53CF2C4BB3160081F46B /* DetailView.swift */,
 				EB8B53CD2C4BAF730081F46B /* EmojiRatingView.swift */,
@@ -167,6 +170,7 @@
 				EB8B53D02C4BB3160081F46B /* DetailView.swift in Sources */,
 				EB09308E2C4A809F00242BD0 /* BookwormApp.swift in Sources */,
 				EB8B53CC2C4BAC9F0081F46B /* RatingView.swift in Sources */,
+				EB8B53D22C4BC47B0081F46B /* Date+Ext.swift in Sources */,
 				EB8B53C82C4BA51E0081F46B /* Book.swift in Sources */,
 				EB8B53C62C4BA1510081F46B /* SwiftDataLearn.swift in Sources */,
 				EB8B53C42C4B9CAB0081F46B /* TextEditorLearn.swift in Sources */,
