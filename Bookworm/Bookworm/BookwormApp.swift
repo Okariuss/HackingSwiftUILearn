@@ -12,8 +12,8 @@ import SwiftData
 struct BookwormApp: App {
     var body: some Scene {
         WindowGroup {
-            SwiftDataLearn()
+            ContentView()
         }
-        .modelContainer(for: Student.self)
+        .modelContainer(for: Book.self)
     }
 }

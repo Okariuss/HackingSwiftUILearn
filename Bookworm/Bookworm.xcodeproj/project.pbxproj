@@ -14,6 +14,8 @@
 		EB8B53C22C4B98EB0081F46B /* ComponentWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53C12C4B98EB0081F46B /* ComponentWithBinding.swift */; };
 		EB8B53C42C4B9CAB0081F46B /* TextEditorLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53C32C4B9CAB0081F46B /* TextEditorLearn.swift */; };
 		EB8B53C62C4BA1510081F46B /* SwiftDataLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53C52C4BA1510081F46B /* SwiftDataLearn.swift */; };
+		EB8B53C82C4BA51E0081F46B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53C72C4BA51E0081F46B /* Book.swift */; };
+		EB8B53CA2C4BA5930081F46B /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53C92C4BA5930081F46B /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		EB8B53C12C4B98EB0081F46B /* ComponentWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentWithBinding.swift; sourceTree = "<group>"; };
 		EB8B53C32C4B9CAB0081F46B /* TextEditorLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLearn.swift; sourceTree = "<group>"; };
 		EB8B53C52C4BA1510081F46B /* SwiftDataLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataLearn.swift; sourceTree = "<group>"; };
+		EB8B53C72C4BA51E0081F46B /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EB8B53C92C4BA5930081F46B /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				EB09308D2C4A809F00242BD0 /* BookwormApp.swift */,
 				EB09308F2C4A809F00242BD0 /* ContentView.swift */,
+				EB8B53C92C4BA5930081F46B /* AddBookView.swift */,
+				EB8B53C72C4BA51E0081F46B /* Book.swift */,
 				EB8B53C12C4B98EB0081F46B /* ComponentWithBinding.swift */,
 				EB8B53C32C4B9CAB0081F46B /* TextEditorLearn.swift */,
 				EB8B53C52C4BA1510081F46B /* SwiftDataLearn.swift */,
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8B53CA2C4BA5930081F46B /* AddBookView.swift in Sources */,
 				EB0930902C4A809F00242BD0 /* ContentView.swift in Sources */,
 				EB09308E2C4A809F00242BD0 /* BookwormApp.swift in Sources */,
+				EB8B53C82C4BA51E0081F46B /* Book.swift in Sources */,
 				EB8B53C62C4BA1510081F46B /* SwiftDataLearn.swift in Sources */,
 				EB8B53C42C4B9CAB0081F46B /* TextEditorLearn.swift in Sources */,
 				EB8B53C22C4B98EB0081F46B /* ComponentWithBinding.swift in Sources */,
