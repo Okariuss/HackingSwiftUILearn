@@ -11,6 +11,7 @@
 		EB0930902C4A809F00242BD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB09308F2C4A809F00242BD0 /* ContentView.swift */; };
 		EB0930922C4A80A100242BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0930912C4A80A100242BD0 /* Assets.xcassets */; };
 		EB0930952C4A80A100242BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0930942C4A80A100242BD0 /* Preview Assets.xcassets */; };
+		EB8B53C22C4B98EB0081F46B /* ComponentWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B53C12C4B98EB0081F46B /* ComponentWithBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB09308F2C4A809F00242BD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB0930912C4A80A100242BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0930942C4A80A100242BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB8B53C12C4B98EB0081F46B /* ComponentWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentWithBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB09308D2C4A809F00242BD0 /* BookwormApp.swift */,
 				EB09308F2C4A809F00242BD0 /* ContentView.swift */,
+				EB8B53C12C4B98EB0081F46B /* ComponentWithBinding.swift */,
 				EB0930912C4A80A100242BD0 /* Assets.xcassets */,
 				EB0930932C4A80A100242BD0 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				EB0930902C4A809F00242BD0 /* ContentView.swift in Sources */,
 				EB09308E2C4A809F00242BD0 /* BookwormApp.swift in Sources */,
+				EB8B53C22C4B98EB0081F46B /* ComponentWithBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
