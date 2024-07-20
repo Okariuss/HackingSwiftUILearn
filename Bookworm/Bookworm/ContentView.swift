@@ -32,6 +32,7 @@ struct ContentView: View {
                             VStack(alignment: .leading) {
                                 Text(book.title)
                                     .font(.headline)
+                                    .foregroundStyle(checkRating(book: book))
                                 Text(book.author)
                                     .foregroundStyle(.secondary)
                             }
@@ -66,6 +67,23 @@ struct ContentView: View {
             let book = books[offset]
             
             modelContext.delete(book)
+        }
+    }
+    
+    func checkRating(book: Book) -> Color {
+        switch book.rating {
+        case 1:
+            return .red
+        case 2:
+            return .orange
+        case 3:
+            return .yellow
+        case 4:
+            return .green
+        case 5:
+            return .blue
+        default:
+            return .gray
         }
     }
 }
