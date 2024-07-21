@@ -11,6 +11,7 @@
 		EB8B54062C4CE65A0081F46B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54052C4CE65A0081F46B /* ContentView.swift */; };
 		EB8B54082C4CE65C0081F46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B54072C4CE65C0081F46B /* Assets.xcassets */; };
 		EB8B540B2C4CE65C0081F46B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B540A2C4CE65C0081F46B /* Preview Assets.xcassets */; };
+		EB8B54122C4D00960081F46B /* ConfirmationDialogLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54112C4D00960081F46B /* ConfirmationDialogLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB8B54052C4CE65A0081F46B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB8B54072C4CE65C0081F46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8B540A2C4CE65C0081F46B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB8B54112C4D00960081F46B /* ConfirmationDialogLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB8B54032C4CE65A0081F46B /* InstafilterApp.swift */,
 				EB8B54052C4CE65A0081F46B /* ContentView.swift */,
+				EB8B54112C4D00960081F46B /* ConfirmationDialogLearn.swift */,
 				EB8B54072C4CE65C0081F46B /* Assets.xcassets */,
 				EB8B54092C4CE65C0081F46B /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8B54062C4CE65A0081F46B /* ContentView.swift in Sources */,
+				EB8B54122C4D00960081F46B /* ConfirmationDialogLearn.swift in Sources */,
 				EB8B54042C4CE65A0081F46B /* InstafilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
