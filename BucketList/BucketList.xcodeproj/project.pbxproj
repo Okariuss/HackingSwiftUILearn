@@ -11,6 +11,7 @@
 		EB8B542E2C4D528D0081F46B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B542D2C4D528D0081F46B /* ContentView.swift */; };
 		EB8B54302C4D52900081F46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B542F2C4D52900081F46B /* Assets.xcassets */; };
 		EB8B54332C4D52900081F46B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8B54322C4D52900081F46B /* Preview Assets.xcassets */; };
+		EB8B543A2C4D538E0081F46B /* ComparableLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54392C4D538D0081F46B /* ComparableLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB8B542D2C4D528D0081F46B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB8B542F2C4D52900081F46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8B54322C4D52900081F46B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB8B54392C4D538D0081F46B /* ComparableLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB8B542B2C4D528D0081F46B /* BucketListApp.swift */,
 				EB8B542D2C4D528D0081F46B /* ContentView.swift */,
+				EB8B54392C4D538D0081F46B /* ComparableLearn.swift */,
 				EB8B542F2C4D52900081F46B /* Assets.xcassets */,
 				EB8B54312C4D52900081F46B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8B543A2C4D538E0081F46B /* ComparableLearn.swift in Sources */,
 				EB8B542E2C4D528D0081F46B /* ContentView.swift in Sources */,
 				EB8B542C2C4D528D0081F46B /* BucketListApp.swift in Sources */,
 			);
