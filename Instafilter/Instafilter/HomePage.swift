@@ -16,9 +16,12 @@ struct HomePage: View {
     
     @State private var processedImage: Image?
     @State private var filterIntensity = 0.5
+    @State private var filterRadius = 0.5
+    @State private var filterScale = 0.5
     @State private var selectedItem: PhotosPickerItem?
     @State private var currentFilter: CIFilter = CIFilter.sepiaTone()
     @State private var showingFİlters = false
+    @State private var hasImageSelected = false
     
     let context = CIContext()
     
@@ -37,16 +40,42 @@ struct HomePage: View {
                     }
                 }
                 .buttonStyle(.plain)
-                .onChange(of: selectedItem, loadImage)
+                .onChange(of: selectedItem) {
+                    hasImageSelected = true
+                    loadImage()
+                }
                 
                 Spacer()
                 
-                HStack {
-                    Text("Intensity")
-                    Slider(value: $filterIntensity)
-                        .onChange(of: filterIntensity, applyProcessing)
+                VStack {
+                    if currentFilter.inputKeys.contains(kCIInputIntensityKey) {
+                        HStack {
+                            Text("Intensity")
+                            Slider(value: $filterIntensity)
+                                .onChange(of: filterIntensity, applyProcessing)
+                        }
+                        .padding(.vertical)
+                    }
+                    
+                    if currentFilter.inputKeys.contains(kCIInputRadiusKey) {
+                        HStack {
+                            Text("Radius")
+                            Slider(value: $filterRadius)
+                                .onChange(of: filterRadius, applyProcessing)
+                        }
+                        .padding(.vertical)
+                    }
+                    
+                    if currentFilter.inputKeys.contains(kCIInputScaleKey) {
+                        HStack {
+                            Text("Scale")
+                            Slider(value: $filterScale)
+                                .onChange(of: filterScale, applyProcessing)
+                        }
+                        .padding(.vertical)
+                    }
                 }
-                .padding(.vertical)
+                .disabled(hasImageSelected == false)
                 
                 HStack {
                     Button("Change Filter", action: changeFilter)
@@ -57,6 +86,7 @@ struct HomePage: View {
                         ShareLink(item: processedImage, preview: SharePreview("Instafilter image", image: processedImage))
                     }
                 }
+                .disabled(hasImageSelected == false)
             }
             .padding([.horizontal, .bottom])
             .navigationTitle("Instafilter")
@@ -68,6 +98,9 @@ struct HomePage: View {
                 Button("Sepia Tone") { setFilter(CIFilter.sepiaTone()) }
                 Button("Unsharp Mask") { setFilter(CIFilter.unsharpMask()) }
                 Button("Vignette") { setFilter(CIFilter.vignette()) }
+                Button("Color Invert") { setFilter(CIFilter.colorInvert()) }
+                Button("Bloom") { setFilter(CIFilter.bloom()) }
+                Button("Photo Effect Noir") { setFilter(CIFilter.photoEffectNoir()) }
             }
         }
     }
@@ -105,7 +138,7 @@ struct HomePage: View {
     func setFilter(_ filter: CIFilter) {
         filterCount += 1
         
-        if filterCount >= 2 {
+        if filterCount >= 20 {
             requestReview()
         }
         
