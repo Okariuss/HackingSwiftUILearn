@@ -15,6 +15,7 @@
 		EB8B54142C4D02D50081F46B /* CoreImageLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54132C4D02D50081F46B /* CoreImageLearn.swift */; };
 		EB8B54162C4D07590081F46B /* ContentUnavailableViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54152C4D07590081F46B /* ContentUnavailableViewLearn.swift */; };
 		EB8B54182C4D08400081F46B /* ImgFromPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54172C4D08400081F46B /* ImgFromPhotoLibrary.swift */; };
+		EB8B541A2C4D0EC10081F46B /* ShareLinkLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54192C4D0EC10081F46B /* ShareLinkLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EB8B54132C4D02D50081F46B /* CoreImageLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageLearn.swift; sourceTree = "<group>"; };
 		EB8B54152C4D07590081F46B /* ContentUnavailableViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewLearn.swift; sourceTree = "<group>"; };
 		EB8B54172C4D08400081F46B /* ImgFromPhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgFromPhotoLibrary.swift; sourceTree = "<group>"; };
+		EB8B54192C4D0EC10081F46B /* ShareLinkLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EB8B54132C4D02D50081F46B /* CoreImageLearn.swift */,
 				EB8B54152C4D07590081F46B /* ContentUnavailableViewLearn.swift */,
 				EB8B54172C4D08400081F46B /* ImgFromPhotoLibrary.swift */,
+				EB8B54192C4D0EC10081F46B /* ShareLinkLearn.swift */,
 				EB8B54072C4CE65C0081F46B /* Assets.xcassets */,
 				EB8B54092C4CE65C0081F46B /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8B54182C4D08400081F46B /* ImgFromPhotoLibrary.swift in Sources */,
+				EB8B541A2C4D0EC10081F46B /* ShareLinkLearn.swift in Sources */,
 				EB8B54062C4CE65A0081F46B /* ContentView.swift in Sources */,
 				EB8B54142C4D02D50081F46B /* CoreImageLearn.swift in Sources */,
 				EB8B54122C4D00960081F46B /* ConfirmationDialogLearn.swift in Sources */,
