@@ -16,6 +16,7 @@
 		EB8B543E2C4D6EEF0081F46B /* FileManager-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B543D2C4D6EEF0081F46B /* FileManager-Decodable.swift */; };
 		EB8B54402C4D718A0081F46B /* SwitchViewWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B543F2C4D718A0081F46B /* SwitchViewWithEnum.swift */; };
 		EB8B54422C4D7B3C0081F46B /* MapKitLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54412C4D7B3C0081F46B /* MapKitLearn.swift */; };
+		EB8B54442C4D82A20081F46B /* TouchAndFaceIdLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B54432C4D82A20081F46B /* TouchAndFaceIdLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EB8B543D2C4D6EEF0081F46B /* FileManager-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-Decodable.swift"; sourceTree = "<group>"; };
 		EB8B543F2C4D718A0081F46B /* SwitchViewWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewWithEnum.swift; sourceTree = "<group>"; };
 		EB8B54412C4D7B3C0081F46B /* MapKitLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitLearn.swift; sourceTree = "<group>"; };
+		EB8B54432C4D82A20081F46B /* TouchAndFaceIdLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchAndFaceIdLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				EB8B543B2C4D675F0081F46B /* WriteDataToTheDocument.swift */,
 				EB8B543F2C4D718A0081F46B /* SwitchViewWithEnum.swift */,
 				EB8B54412C4D7B3C0081F46B /* MapKitLearn.swift */,
+				EB8B54432C4D82A20081F46B /* TouchAndFaceIdLearn.swift */,
 				EB8B542F2C4D52900081F46B /* Assets.xcassets */,
 				EB8B54312C4D52900081F46B /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8B54442C4D82A20081F46B /* TouchAndFaceIdLearn.swift in Sources */,
 				EB8B543A2C4D538E0081F46B /* ComparableLearn.swift in Sources */,
 				EB8B54422C4D7B3C0081F46B /* MapKitLearn.swift in Sources */,
 				EB8B543E2C4D6EEF0081F46B /* FileManager-Decodable.swift in Sources */,
@@ -295,6 +299,7 @@
 				DEVELOPMENT_TEAM = SURBTN8MP7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +329,7 @@
 				DEVELOPMENT_TEAM = SURBTN8MP7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
