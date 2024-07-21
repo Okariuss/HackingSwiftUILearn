@@ -11,6 +11,9 @@ import CoreImage
 import CoreImage.CIFilterBuiltins
 
 struct HomePage: View {
+    @AppStorage("filterCount") var filterCount = 0
+    @Environment(\.requestReview) var requestReview
+    
     @State private var processedImage: Image?
     @State private var filterIntensity = 0.5
     @State private var selectedItem: PhotosPickerItem?
@@ -50,7 +53,9 @@ struct HomePage: View {
                     
                     Spacer()
                     
-                    // share picture
+                    if let processedImage {
+                        ShareLink(item: processedImage, preview: SharePreview("Instafilter image", image: processedImage))
+                    }
                 }
             }
             .padding([.horizontal, .bottom])
@@ -96,7 +101,14 @@ struct HomePage: View {
         processedImage = Image(uiImage: uiImage)
     }
     
+    @MainActor
     func setFilter(_ filter: CIFilter) {
+        filterCount += 1
+        
+        if filterCount >= 2 {
+            requestReview()
+        }
+        
         currentFilter = filter
         loadImage()
     }
