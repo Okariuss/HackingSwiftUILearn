@@ -19,9 +19,14 @@ extension ContentView {
         var selectedPlace: Location?
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
-        var isUnlocked = true
+        var isUnlocked = false
         var isStandardMap = false
         
+        var authError = false
+        var authErrorMessage = ""
+        
+        var biometricError = false
+        var biometricErrorMessage = ""
         init() {
             do {
                 let data = try Data(contentsOf: savePath)
@@ -65,11 +70,13 @@ extension ContentView {
                     if success {
                         self.isUnlocked = true
                     } else {
-                        // error
+                        self.authError = true
+                        self.authErrorMessage = "Authentication Error: \(authenticationError?.localizedDescription ?? "Unknown Error")"
                     }
                 }
             } else {
-                // no biometrics
+                self.biometricError = true
+                self.biometricErrorMessage = "Biometric Error: \(error?.localizedDescription ?? "Unknown Error")"
             }
         }
         

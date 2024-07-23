@@ -68,6 +68,12 @@ struct ContentView: View {
                 .background(.blue)
                 .foregroundStyle(.white)
                 .clipShape(.capsule)
+                .alert(viewModel.authErrorMessage, isPresented: $viewModel.authError) {
+                    
+                }
+                .alert(viewModel.biometricErrorMessage, isPresented: $viewModel.biometricError) {
+                    
+                }
         }
         
     }
