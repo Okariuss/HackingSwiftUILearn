@@ -10,7 +10,16 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        ReadingValueOfControls()
+        HandlingVoiceInput()
+    }
+}
+
+struct HandlingVoiceInput: View {
+    var body: some View {
+        Button("John Fitzgerald Kennedy") {
+            print("Button tapped")
+        }
+        .accessibilityInputLabels(["John Fitzgerald Kenned", "Kennedy", "JFK"])
     }
 }
 
