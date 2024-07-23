@@ -9,6 +9,7 @@ import Foundation
 import MapKit
 import CoreLocation
 import LocalAuthentication
+import SwiftUI
 
 extension ContentView {
     
@@ -18,7 +19,8 @@ extension ContentView {
         var selectedPlace: Location?
         
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
-        var isUnlocked = false
+        var isUnlocked = true
+        var isStandardMap = false
         
         init() {
             do {
@@ -69,6 +71,10 @@ extension ContentView {
             } else {
                 // no biometrics
             }
+        }
+        
+        func changeMapStyle() {
+            isStandardMap.toggle()
         }
     }
 }
