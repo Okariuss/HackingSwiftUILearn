@@ -9,6 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var body: some View {
+        HidingAndGroupingData()
+    }
+}
+
+struct HidingAndGroupingData: View {
+    var body: some View {
+        Image(.character)
+            .accessibilityHidden(true)
+        
+        VStack {
+            Text("Your score is")
+            Text("1000")
+                .font(.title)
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("Your score is 1000")
+    }
+}
+
+struct IdentifyingViewsWithLabels: View {
     let pictures = [
         "ales-krivec-15949",
         "galina-n-189483",
