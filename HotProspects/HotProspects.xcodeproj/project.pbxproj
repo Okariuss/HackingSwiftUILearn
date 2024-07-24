@@ -18,6 +18,8 @@
 		EB196FD42C5118BA00CF6116 /* ContextMenuLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD32C5118BA00CF6116 /* ContextMenuLearning.swift */; };
 		EB196FD62C512F1600CF6116 /* SwipeActionsForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */; };
 		EB196FD82C516B1000CF6116 /* ScheduleLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */; };
+		EB196FDB2C51715500CF6116 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = EB196FDA2C51715500CF6116 /* SamplePackage */; };
+		EB196FDD2C51716C00CF6116 /* AddSwiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		EB196FD32C5118BA00CF6116 /* ContextMenuLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuLearning.swift; sourceTree = "<group>"; };
 		EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsForList.swift; sourceTree = "<group>"; };
 		EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLocalNotification.swift; sourceTree = "<group>"; };
+		EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSwiftPackage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB196FDB2C51715500CF6116 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +78,7 @@
 				EB196FD32C5118BA00CF6116 /* ContextMenuLearning.swift */,
 				EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */,
 				EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */,
+				EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */,
 				EB0EEB722C500BD50026F60C /* Assets.xcassets */,
 				EB0EEB742C500BD50026F60C /* Preview Content */,
 			);
@@ -104,6 +109,9 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+				EB196FDA2C51715500CF6116 /* SamplePackage */,
+			);
 			productName = HotProspects;
 			productReference = EB0EEB6B2C500BD30026F60C /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +140,9 @@
 				Base,
 			);
 			mainGroup = EB0EEB622C500BD30026F60C;
+			packageReferences = (
+				EB196FD92C51715500CF6116 /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = EB0EEB6C2C500BD30026F60C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -162,6 +173,7 @@
 				EB0EEB712C500BD30026F60C /* ContentView.swift in Sources */,
 				EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */,
 				EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */,
+				EB196FDD2C51716C00CF6116 /* AddSwiftPackage.swift in Sources */,
 				EB196FD22C51138A00CF6116 /* ImageInterpoletionLearn.swift in Sources */,
 				EB0EEB6F2C500BD30026F60C /* HotProspectsApp.swift in Sources */,
 				EB196FD42C5118BA00CF6116 /* ContextMenuLearning.swift in Sources */,
@@ -372,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB196FD92C51715500CF6116 /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB196FDA2C51715500CF6116 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB196FD92C51715500CF6116 /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB0EEB632C500BD30026F60C /* Project object */;
 }
