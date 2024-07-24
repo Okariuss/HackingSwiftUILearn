@@ -22,6 +22,7 @@
 		EB196FDD2C51716C00CF6116 /* AddSwiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */; };
 		EB196FDF2C51752700CF6116 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FDE2C51752700CF6116 /* ProspectsView.swift */; };
 		EB196FE12C51753E00CF6116 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FE02C51753E00CF6116 /* MeView.swift */; };
+		EB196FE32C517E2500CF6116 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FE22C517E2500CF6116 /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSwiftPackage.swift; sourceTree = "<group>"; };
 		EB196FDE2C51752700CF6116 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
 		EB196FE02C51753E00CF6116 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		EB196FE22C517E2500CF6116 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				EB0EEB702C500BD30026F60C /* ContentView.swift */,
 				EB196FDE2C51752700CF6116 /* ProspectsView.swift */,
 				EB196FE02C51753E00CF6116 /* MeView.swift */,
+				EB196FE22C517E2500CF6116 /* Prospect.swift */,
 				EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */,
 				EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */,
 				EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */,
@@ -178,6 +181,7 @@
 				EB196FE12C51753E00CF6116 /* MeView.swift in Sources */,
 				EB196FD62C512F1600CF6116 /* SwipeActionsForList.swift in Sources */,
 				EB0EEB712C500BD30026F60C /* ContentView.swift in Sources */,
+				EB196FE32C517E2500CF6116 /* Prospect.swift in Sources */,
 				EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */,
 				EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */,
 				EB196FDD2C51716C00CF6116 /* AddSwiftPackage.swift in Sources */,
