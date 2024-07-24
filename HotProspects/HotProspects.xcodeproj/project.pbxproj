@@ -11,6 +11,8 @@
 		EB0EEB712C500BD30026F60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EEB702C500BD30026F60C /* ContentView.swift */; };
 		EB0EEB732C500BD50026F60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0EEB722C500BD50026F60C /* Assets.xcassets */; };
 		EB0EEB762C500BD50026F60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0EEB752C500BD50026F60C /* Preview Assets.xcassets */; };
+		EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */; };
+		EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EB0EEB702C500BD30026F60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB0EEB722C500BD50026F60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0EEB752C500BD50026F60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableItemsList.swift; sourceTree = "<group>"; };
+		EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EB0EEB6E2C500BD30026F60C /* HotProspectsApp.swift */,
 				EB0EEB702C500BD30026F60C /* ContentView.swift */,
+				EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */,
+				EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */,
 				EB0EEB722C500BD50026F60C /* Assets.xcassets */,
 				EB0EEB742C500BD50026F60C /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0EEB712C500BD30026F60C /* ContentView.swift in Sources */,
+				EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */,
+				EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */,
 				EB0EEB6F2C500BD30026F60C /* HotProspectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
