@@ -13,6 +13,7 @@
 		EB0EEB762C500BD50026F60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0EEB752C500BD50026F60C /* Preview Assets.xcassets */; };
 		EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */; };
 		EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */; };
+		EB196FD02C510C6400CF6116 /* ResultTypeLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB0EEB752C500BD50026F60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableItemsList.swift; sourceTree = "<group>"; };
 		EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewLearn.swift; sourceTree = "<group>"; };
+		EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB0EEB702C500BD30026F60C /* ContentView.swift */,
 				EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */,
 				EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */,
+				EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */,
 				EB0EEB722C500BD50026F60C /* Assets.xcassets */,
 				EB0EEB742C500BD50026F60C /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */,
 				EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */,
 				EB0EEB6F2C500BD30026F60C /* HotProspectsApp.swift in Sources */,
+				EB196FD02C510C6400CF6116 /* ResultTypeLearn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
