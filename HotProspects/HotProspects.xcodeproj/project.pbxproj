@@ -20,6 +20,8 @@
 		EB196FD82C516B1000CF6116 /* ScheduleLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */; };
 		EB196FDB2C51715500CF6116 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = EB196FDA2C51715500CF6116 /* SamplePackage */; };
 		EB196FDD2C51716C00CF6116 /* AddSwiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */; };
+		EB196FDF2C51752700CF6116 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FDE2C51752700CF6116 /* ProspectsView.swift */; };
+		EB196FE12C51753E00CF6116 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FE02C51753E00CF6116 /* MeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsForList.swift; sourceTree = "<group>"; };
 		EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLocalNotification.swift; sourceTree = "<group>"; };
 		EB196FDC2C51716C00CF6116 /* AddSwiftPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSwiftPackage.swift; sourceTree = "<group>"; };
+		EB196FDE2C51752700CF6116 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		EB196FE02C51753E00CF6116 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			children = (
 				EB0EEB6E2C500BD30026F60C /* HotProspectsApp.swift */,
 				EB0EEB702C500BD30026F60C /* ContentView.swift */,
+				EB196FDE2C51752700CF6116 /* ProspectsView.swift */,
+				EB196FE02C51753E00CF6116 /* MeView.swift */,
 				EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */,
 				EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */,
 				EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */,
@@ -169,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB196FE12C51753E00CF6116 /* MeView.swift in Sources */,
 				EB196FD62C512F1600CF6116 /* SwipeActionsForList.swift in Sources */,
 				EB0EEB712C500BD30026F60C /* ContentView.swift in Sources */,
 				EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */,
@@ -178,6 +185,7 @@
 				EB0EEB6F2C500BD30026F60C /* HotProspectsApp.swift in Sources */,
 				EB196FD42C5118BA00CF6116 /* ContextMenuLearning.swift in Sources */,
 				EB196FD02C510C6400CF6116 /* ResultTypeLearn.swift in Sources */,
+				EB196FDF2C51752700CF6116 /* ProspectsView.swift in Sources */,
 				EB196FD82C516B1000CF6116 /* ScheduleLocalNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
