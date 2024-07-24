@@ -17,6 +17,7 @@
 		EB196FD22C51138A00CF6116 /* ImageInterpoletionLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD12C51138A00CF6116 /* ImageInterpoletionLearn.swift */; };
 		EB196FD42C5118BA00CF6116 /* ContextMenuLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD32C5118BA00CF6116 /* ContextMenuLearning.swift */; };
 		EB196FD62C512F1600CF6116 /* SwipeActionsForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */; };
+		EB196FD82C516B1000CF6116 /* ScheduleLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EB196FD12C51138A00CF6116 /* ImageInterpoletionLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpoletionLearn.swift; sourceTree = "<group>"; };
 		EB196FD32C5118BA00CF6116 /* ContextMenuLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuLearning.swift; sourceTree = "<group>"; };
 		EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsForList.swift; sourceTree = "<group>"; };
+		EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLocalNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				EB196FD12C51138A00CF6116 /* ImageInterpoletionLearn.swift */,
 				EB196FD32C5118BA00CF6116 /* ContextMenuLearning.swift */,
 				EB196FD52C512F1600CF6116 /* SwipeActionsForList.swift */,
+				EB196FD72C516B1000CF6116 /* ScheduleLocalNotification.swift */,
 				EB0EEB722C500BD50026F60C /* Assets.xcassets */,
 				EB0EEB742C500BD50026F60C /* Preview Content */,
 			);
@@ -163,6 +166,7 @@
 				EB0EEB6F2C500BD30026F60C /* HotProspectsApp.swift in Sources */,
 				EB196FD42C5118BA00CF6116 /* ContextMenuLearning.swift in Sources */,
 				EB196FD02C510C6400CF6116 /* ResultTypeLearn.swift in Sources */,
+				EB196FD82C516B1000CF6116 /* ScheduleLocalNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
