@@ -14,6 +14,7 @@
 		EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */; };
 		EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */; };
 		EB196FD02C510C6400CF6116 /* ResultTypeLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */; };
+		EB196FD22C51138A00CF6116 /* ImageInterpoletionLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB196FD12C51138A00CF6116 /* ImageInterpoletionLearn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableItemsList.swift; sourceTree = "<group>"; };
 		EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewLearn.swift; sourceTree = "<group>"; };
 		EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeLearn.swift; sourceTree = "<group>"; };
+		EB196FD12C51138A00CF6116 /* ImageInterpoletionLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpoletionLearn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EB196FCB2C51024D00CF6116 /* SelectableItemsList.swift */,
 				EB196FCD2C51027A00CF6116 /* TabViewLearn.swift */,
 				EB196FCF2C510C6400CF6116 /* ResultTypeLearn.swift */,
+				EB196FD12C51138A00CF6116 /* ImageInterpoletionLearn.swift */,
 				EB0EEB722C500BD50026F60C /* Assets.xcassets */,
 				EB0EEB742C500BD50026F60C /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				EB0EEB712C500BD30026F60C /* ContentView.swift in Sources */,
 				EB196FCE2C51027A00CF6116 /* TabViewLearn.swift in Sources */,
 				EB196FCC2C51024D00CF6116 /* SelectableItemsList.swift in Sources */,
+				EB196FD22C51138A00CF6116 /* ImageInterpoletionLearn.swift in Sources */,
 				EB0EEB6F2C500BD30026F60C /* HotProspectsApp.swift in Sources */,
 				EB196FD02C510C6400CF6116 /* ResultTypeLearn.swift in Sources */,
 			);
