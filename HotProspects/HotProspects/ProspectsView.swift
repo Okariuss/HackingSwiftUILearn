@@ -50,18 +50,22 @@ struct ProspectsView: View {
     var body: some View {
         NavigationStack {
             List(prospects, selection: $selectedProspects) { prospect in
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text(prospect.name)
-                            .font(.headline)
-                        Text(prospect.emailAddress)
-                            .foregroundStyle(.secondary)
+                NavigationLink {
+                    EditView(prospect: .constant(prospect))
+                } label: {
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(prospect.name)
+                                .font(.headline)
+                            Text(prospect.emailAddress)
+                                .foregroundStyle(.secondary)
+                        }
+                        
+                        Spacer()
+                        
+                        Image(systemName: prospect.isConnected ? "checkmark.circle.fill" : "xmark.circle")
+                            .foregroundStyle(prospect.isConnected ? .green : .red)
                     }
-                    
-                    Spacer()
-                    
-                    Image(systemName: prospect.isConnected ? "checkmark.circle.fill" : "xmark.circle")
-                        .foregroundStyle(prospect.isConnected ? .green : .red)
                 }
                 .swipeActions {
                     Button("Delete", systemImage: "trash", role: .destructive) {
