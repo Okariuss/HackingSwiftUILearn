@@ -16,11 +16,17 @@ struct ProspectsView: View {
         case none, contacted, uncontacted
     }
     
+    enum SortType: String, CaseIterable {
+        case name = "Name"
+        case recent = "Most Recent"
+    }
+    
     @Query(sort: \Prospect.name) var prospects: [Prospect]
     @Environment(\.modelContext) var modelContext
     
     @State private var isShowingScanner = false
     @State private var selectedProspects = Set<Prospect>()
+    @State private var selectedSortType: SortType = .name
     
     let filter: FilterType
     
@@ -38,18 +44,36 @@ struct ProspectsView: View {
     init(filter: FilterType) {
         self.filter = filter
         
-        if filter != .none {
-            let showContactedOnly = filter == .contacted
-            
-            _prospects = Query(filter: #Predicate {
-                $0.isConnected == showContactedOnly
-            }, sort: [SortDescriptor(\Prospect.name)])
+//        if filter != .none {
+//            let showContactedOnly = filter == .contacted
+//            
+//            _prospects = Query(filter: #Predicate {
+//                $0.isConnected == showContactedOnly
+//            }, sort: [SortDescriptor(\Prospect.name)])
+//        }
+    }
+    
+    var sortedProspects: [Prospect] {
+        switch selectedSortType {
+        case .name:
+            return prospects.sorted { $0.name < $1.name }
+        case .recent:
+            return prospects.sorted { $0.dateAdded < $1.dateAdded }
         }
     }
     
     var body: some View {
         NavigationStack {
-            List(prospects, selection: $selectedProspects) { prospect in
+            
+            Picker("Sort by", selection: $selectedSortType) {
+                ForEach(SortType.allCases, id: \.self) { sortType in
+                    Text(sortType.rawValue)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
+            
+            List(sortedProspects, selection: $selectedProspects) { prospect in
                 NavigationLink {
                     EditView(prospect: .constant(prospect))
                 } label: {

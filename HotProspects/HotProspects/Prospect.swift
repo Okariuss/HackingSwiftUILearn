@@ -6,12 +6,14 @@
 //
 
 import SwiftData
+import SwiftUI
 
 @Model
 final class Prospect {
     var name: String
     var emailAddress: String
     var isConnected: Bool
+    var dateAdded =  Date.now
     
     init(name: String, emailAddress: String, isConnected: Bool) {
         self.name = name
