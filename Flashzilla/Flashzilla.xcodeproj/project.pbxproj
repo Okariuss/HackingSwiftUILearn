@@ -14,6 +14,7 @@
 		EBD21D8A2C529B7B00446914 /* GesturesLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD21D892C529B7B00446914 /* GesturesLearn.swift */; };
 		EBFCB5D42C5390F600426594 /* DisableUserInteractivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5D32C5390F600426594 /* DisableUserInteractivity.swift */; };
 		EBFCB5D62C5394D700426594 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5D52C5394D700426594 /* RepeatingTimer.swift */; };
+		EBFCB5D82C5397D600426594 /* AppGoesBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5D72C5397D600426594 /* AppGoesBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EBD21D892C529B7B00446914 /* GesturesLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesLearn.swift; sourceTree = "<group>"; };
 		EBFCB5D32C5390F600426594 /* DisableUserInteractivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableUserInteractivity.swift; sourceTree = "<group>"; };
 		EBFCB5D52C5394D700426594 /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
+		EBFCB5D72C5397D600426594 /* AppGoesBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGoesBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				EBD21D892C529B7B00446914 /* GesturesLearn.swift */,
 				EBFCB5D32C5390F600426594 /* DisableUserInteractivity.swift */,
 				EBFCB5D52C5394D700426594 /* RepeatingTimer.swift */,
+				EBFCB5D72C5397D600426594 /* AppGoesBackground.swift */,
 				EBD21D7F2C529AD500446914 /* Assets.xcassets */,
 				EBD21D812C529AD500446914 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				EBD21D7C2C529AD300446914 /* FlashzillaApp.swift in Sources */,
 				EBFCB5D42C5390F600426594 /* DisableUserInteractivity.swift in Sources */,
 				EBFCB5D62C5394D700426594 /* RepeatingTimer.swift in Sources */,
+				EBFCB5D82C5397D600426594 /* AppGoesBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
