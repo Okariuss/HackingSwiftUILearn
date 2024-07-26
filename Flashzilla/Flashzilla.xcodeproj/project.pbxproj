@@ -13,6 +13,7 @@
 		EBD21D832C529AD500446914 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD21D822C529AD500446914 /* Preview Assets.xcassets */; };
 		EBD21D8A2C529B7B00446914 /* GesturesLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD21D892C529B7B00446914 /* GesturesLearn.swift */; };
 		EBFCB5D42C5390F600426594 /* DisableUserInteractivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5D32C5390F600426594 /* DisableUserInteractivity.swift */; };
+		EBFCB5D62C5394D700426594 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5D52C5394D700426594 /* RepeatingTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EBD21D822C529AD500446914 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBD21D892C529B7B00446914 /* GesturesLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesLearn.swift; sourceTree = "<group>"; };
 		EBFCB5D32C5390F600426594 /* DisableUserInteractivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableUserInteractivity.swift; sourceTree = "<group>"; };
+		EBFCB5D52C5394D700426594 /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EBD21D7D2C529AD300446914 /* ContentView.swift */,
 				EBD21D892C529B7B00446914 /* GesturesLearn.swift */,
 				EBFCB5D32C5390F600426594 /* DisableUserInteractivity.swift */,
+				EBFCB5D52C5394D700426594 /* RepeatingTimer.swift */,
 				EBD21D7F2C529AD500446914 /* Assets.xcassets */,
 				EBD21D812C529AD500446914 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				EBD21D7E2C529AD300446914 /* ContentView.swift in Sources */,
 				EBD21D7C2C529AD300446914 /* FlashzillaApp.swift in Sources */,
 				EBFCB5D42C5390F600426594 /* DisableUserInteractivity.swift in Sources */,
+				EBFCB5D62C5394D700426594 /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
