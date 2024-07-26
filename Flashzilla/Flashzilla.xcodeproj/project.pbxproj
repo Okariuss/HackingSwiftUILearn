@@ -19,6 +19,7 @@
 		EBFCB5DC2C53A0DC00426594 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5DB2C53A0DC00426594 /* Card.swift */; };
 		EBFCB5DE2C53A15F00426594 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5DD2C53A15F00426594 /* CardView.swift */; };
 		EBFCB5E02C53A3B600426594 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5DF2C53A3B600426594 /* View+Extension.swift */; };
+		EBFCB5E22C540F7000426594 /* EditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFCB5E12C540F7000426594 /* EditCardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		EBFCB5DB2C53A0DC00426594 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EBFCB5DD2C53A15F00426594 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EBFCB5DF2C53A3B600426594 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		EBFCB5E12C540F7000426594 /* EditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				EBD21D7B2C529AD300446914 /* FlashzillaApp.swift */,
 				EBFCB5DF2C53A3B600426594 /* View+Extension.swift */,
 				EBD21D7D2C529AD300446914 /* ContentView.swift */,
+				EBFCB5E12C540F7000426594 /* EditCardsView.swift */,
 				EBFCB5DD2C53A15F00426594 /* CardView.swift */,
 				EBFCB5DB2C53A0DC00426594 /* Card.swift */,
 				EBD21D892C529B7B00446914 /* GesturesLearn.swift */,
@@ -165,6 +168,7 @@
 				EBFCB5DE2C53A15F00426594 /* CardView.swift in Sources */,
 				EBFCB5E02C53A3B600426594 /* View+Extension.swift in Sources */,
 				EBD21D8A2C529B7B00446914 /* GesturesLearn.swift in Sources */,
+				EBFCB5E22C540F7000426594 /* EditCardsView.swift in Sources */,
 				EBD21D7E2C529AD300446914 /* ContentView.swift in Sources */,
 				EBD21D7C2C529AD300446914 /* FlashzillaApp.swift in Sources */,
 				EBFCB5D42C5390F600426594 /* DisableUserInteractivity.swift in Sources */,
