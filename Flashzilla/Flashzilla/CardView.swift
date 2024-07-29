@@ -13,9 +13,11 @@ struct CardView: View {
     
     let card: Card
     var removal: (() -> Void)? = nil
+    var markIncorrect: (() -> Void)? = nil
     
     @State private var isShowingAnswer = false
     @State private var offset = CGSize.zero
+    @State private var isDragging = false
     
     var body: some View {
         ZStack {
@@ -30,7 +32,7 @@ struct CardView: View {
                     accessibilityDifferentiateWithoutColor
                     ? nil
                     : RoundedRectangle(cornerRadius: 25)
-                        .fill(offset.width > 0 ? .green : .red)
+                        .fill(isDragging ? (offset.width > 0 ? .green : .red) : .clear)
                 )
                 .shadow(radius: 10)
             
@@ -63,19 +65,25 @@ struct CardView: View {
             DragGesture()
                 .onChanged { gesture in
                     offset = gesture.translation
+                    isDragging = true
                 }
                 .onEnded { _ in
                     if abs(offset.width) > 100 {
-                        removal?()
+                        if offset.width > 0 {
+                            removal?()
+                        } else {
+                            markIncorrect?()
+                        }
                     } else {
                         offset = .zero
                     }
+                    isDragging = false
                 }
         )
         .onTapGesture {
             isShowingAnswer.toggle()
         }
-        .animation(.bouncy, value: offset)
+        .animation(.spring(), value: offset)
     }
 }
 
