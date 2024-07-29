@@ -13,6 +13,7 @@
 		EB9215592C579EFB00388D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9215582C579EFB00388D73 /* Preview Assets.xcassets */; };
 		EB9215602C57A12200388D73 /* LayoutWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92155F2C57A12200388D73 /* LayoutWorks.swift */; };
 		EB9215622C57C6A600388D73 /* AlignmentAndAlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215612C57C6A600388D73 /* AlignmentAndAlignmentGuides.swift */; };
+		EB9215642C57CDCB00388D73 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215632C57CDCB00388D73 /* CustomAlignmentGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB9215582C579EFB00388D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB92155F2C57A12200388D73 /* LayoutWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutWorks.swift; sourceTree = "<group>"; };
 		EB9215612C57C6A600388D73 /* AlignmentAndAlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAndAlignmentGuides.swift; sourceTree = "<group>"; };
+		EB9215632C57CDCB00388D73 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB9215532C579EF900388D73 /* ContentView.swift */,
 				EB92155F2C57A12200388D73 /* LayoutWorks.swift */,
 				EB9215612C57C6A600388D73 /* AlignmentAndAlignmentGuides.swift */,
+				EB9215632C57CDCB00388D73 /* CustomAlignmentGuide.swift */,
 				EB9215552C579EFB00388D73 /* Assets.xcassets */,
 				EB9215572C579EFB00388D73 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9215642C57CDCB00388D73 /* CustomAlignmentGuide.swift in Sources */,
 				EB9215602C57A12200388D73 /* LayoutWorks.swift in Sources */,
 				EB9215542C579EF900388D73 /* ContentView.swift in Sources */,
 				EB9215622C57C6A600388D73 /* AlignmentAndAlignmentGuides.swift in Sources */,
