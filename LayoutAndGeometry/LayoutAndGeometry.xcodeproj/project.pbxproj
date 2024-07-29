@@ -11,6 +11,7 @@
 		EB9215542C579EF900388D73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215532C579EF900388D73 /* ContentView.swift */; };
 		EB9215562C579EFB00388D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9215552C579EFB00388D73 /* Assets.xcassets */; };
 		EB9215592C579EFB00388D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9215582C579EFB00388D73 /* Preview Assets.xcassets */; };
+		EB9215602C57A12200388D73 /* LayoutWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92155F2C57A12200388D73 /* LayoutWorks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB9215532C579EF900388D73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB9215552C579EFB00388D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9215582C579EFB00388D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB92155F2C57A12200388D73 /* LayoutWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutWorks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB9215512C579EF900388D73 /* LayoutAndGeometryApp.swift */,
 				EB9215532C579EF900388D73 /* ContentView.swift */,
+				EB92155F2C57A12200388D73 /* LayoutWorks.swift */,
 				EB9215552C579EFB00388D73 /* Assets.xcassets */,
 				EB9215572C579EFB00388D73 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9215602C57A12200388D73 /* LayoutWorks.swift in Sources */,
 				EB9215542C579EF900388D73 /* ContentView.swift in Sources */,
 				EB9215522C579EF900388D73 /* LayoutAndGeometryApp.swift in Sources */,
 			);
