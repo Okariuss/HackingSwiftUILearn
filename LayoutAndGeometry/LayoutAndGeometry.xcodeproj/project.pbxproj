@@ -17,6 +17,7 @@
 		EB9215662C58171500388D73 /* AbsolutePositioningForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215652C58171400388D73 /* AbsolutePositioningForViews.swift */; };
 		EB9215682C58189900388D73 /* GeometryReaderResizingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215672C58189900388D73 /* GeometryReaderResizingImages.swift */; };
 		EB92156A2C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215692C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift */; };
+		EB92156C2C581F6700388D73 /* GeometryReaderScrollEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92156B2C581F6700388D73 /* GeometryReaderScrollEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EB9215652C58171400388D73 /* AbsolutePositioningForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningForViews.swift; sourceTree = "<group>"; };
 		EB9215672C58189900388D73 /* GeometryReaderResizingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderResizingImages.swift; sourceTree = "<group>"; };
 		EB9215692C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndCoordinatesGeometryReader.swift; sourceTree = "<group>"; };
+		EB92156B2C581F6700388D73 /* GeometryReaderScrollEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderScrollEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				EB9215652C58171400388D73 /* AbsolutePositioningForViews.swift */,
 				EB9215672C58189900388D73 /* GeometryReaderResizingImages.swift */,
 				EB9215692C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift */,
+				EB92156B2C581F6700388D73 /* GeometryReaderScrollEffect.swift */,
 				EB9215552C579EFB00388D73 /* Assets.xcassets */,
 				EB9215572C579EFB00388D73 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB92156C2C581F6700388D73 /* GeometryReaderScrollEffect.swift in Sources */,
 				EB9215642C57CDCB00388D73 /* CustomAlignmentGuide.swift in Sources */,
 				EB9215602C57A12200388D73 /* LayoutWorks.swift in Sources */,
 				EB9215542C579EF900388D73 /* ContentView.swift in Sources */,
