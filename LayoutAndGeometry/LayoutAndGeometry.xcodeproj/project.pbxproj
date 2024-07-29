@@ -16,6 +16,7 @@
 		EB9215642C57CDCB00388D73 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215632C57CDCB00388D73 /* CustomAlignmentGuide.swift */; };
 		EB9215662C58171500388D73 /* AbsolutePositioningForViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215652C58171400388D73 /* AbsolutePositioningForViews.swift */; };
 		EB9215682C58189900388D73 /* GeometryReaderResizingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215672C58189900388D73 /* GeometryReaderResizingImages.swift */; };
+		EB92156A2C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215692C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EB9215632C57CDCB00388D73 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
 		EB9215652C58171400388D73 /* AbsolutePositioningForViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningForViews.swift; sourceTree = "<group>"; };
 		EB9215672C58189900388D73 /* GeometryReaderResizingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderResizingImages.swift; sourceTree = "<group>"; };
+		EB9215692C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndCoordinatesGeometryReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				EB9215632C57CDCB00388D73 /* CustomAlignmentGuide.swift */,
 				EB9215652C58171400388D73 /* AbsolutePositioningForViews.swift */,
 				EB9215672C58189900388D73 /* GeometryReaderResizingImages.swift */,
+				EB9215692C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift */,
 				EB9215552C579EFB00388D73 /* Assets.xcassets */,
 				EB9215572C579EFB00388D73 /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				EB9215662C58171500388D73 /* AbsolutePositioningForViews.swift in Sources */,
 				EB9215682C58189900388D73 /* GeometryReaderResizingImages.swift in Sources */,
 				EB9215622C57C6A600388D73 /* AlignmentAndAlignmentGuides.swift in Sources */,
+				EB92156A2C581B9000388D73 /* FramesAndCoordinatesGeometryReader.swift in Sources */,
 				EB9215522C579EF900388D73 /* LayoutAndGeometryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
