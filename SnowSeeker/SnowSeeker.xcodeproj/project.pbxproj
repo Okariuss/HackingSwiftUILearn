@@ -13,6 +13,7 @@
 		EB9215832C58A96100388D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9215822C58A96100388D73 /* Preview Assets.xcassets */; };
 		EB92158A2C58AA2E00388D73 /* TwoSideBySideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215892C58AA2E00388D73 /* TwoSideBySideView.swift */; };
 		EB92158C2C58B81600388D73 /* AlertAndSheetOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92158B2C58B81600388D73 /* AlertAndSheetOptional.swift */; };
+		EB92158E2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92158D2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EB9215822C58A96100388D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB9215892C58AA2E00388D73 /* TwoSideBySideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSideBySideView.swift; sourceTree = "<group>"; };
 		EB92158B2C58B81600388D73 /* AlertAndSheetOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndSheetOptional.swift; sourceTree = "<group>"; };
+		EB92158D2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAsTransparentLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EB92157D2C58A95F00388D73 /* ContentView.swift */,
 				EB9215892C58AA2E00388D73 /* TwoSideBySideView.swift */,
 				EB92158B2C58B81600388D73 /* AlertAndSheetOptional.swift */,
+				EB92158D2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift */,
 				EB92157F2C58A96100388D73 /* Assets.xcassets */,
 				EB9215812C58A96100388D73 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB92158C2C58B81600388D73 /* AlertAndSheetOptional.swift in Sources */,
+				EB92158E2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift in Sources */,
 				EB92158A2C58AA2E00388D73 /* TwoSideBySideView.swift in Sources */,
 				EB92157E2C58A95F00388D73 /* ContentView.swift in Sources */,
 				EB92157C2C58A95F00388D73 /* SnowSeekerApp.swift in Sources */,
