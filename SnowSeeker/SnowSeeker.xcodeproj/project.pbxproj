@@ -15,6 +15,7 @@
 		EB92158C2C58B81600388D73 /* AlertAndSheetOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92158B2C58B81600388D73 /* AlertAndSheetOptional.swift */; };
 		EB92158E2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92158D2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift */; };
 		EB9215902C58C0D200388D73 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92158F2C58C0D200388D73 /* SearchableView.swift */; };
+		EB9215922C58C3C400388D73 /* SharingObjectThroughEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9215912C58C3C400388D73 /* SharingObjectThroughEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EB92158B2C58B81600388D73 /* AlertAndSheetOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndSheetOptional.swift; sourceTree = "<group>"; };
 		EB92158D2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAsTransparentLayout.swift; sourceTree = "<group>"; };
 		EB92158F2C58C0D200388D73 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
+		EB9215912C58C3C400388D73 /* SharingObjectThroughEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingObjectThroughEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EB92158B2C58B81600388D73 /* AlertAndSheetOptional.swift */,
 				EB92158D2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift */,
 				EB92158F2C58C0D200388D73 /* SearchableView.swift */,
+				EB9215912C58C3C400388D73 /* SharingObjectThroughEnvironment.swift */,
 				EB92157F2C58A96100388D73 /* Assets.xcassets */,
 				EB9215812C58A96100388D73 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				EB92158C2C58B81600388D73 /* AlertAndSheetOptional.swift in Sources */,
 				EB92158E2C58BA3D00388D73 /* GroupsAsTransparentLayout.swift in Sources */,
 				EB92158A2C58AA2E00388D73 /* TwoSideBySideView.swift in Sources */,
+				EB9215922C58C3C400388D73 /* SharingObjectThroughEnvironment.swift in Sources */,
 				EB92157E2C58A95F00388D73 /* ContentView.swift in Sources */,
 				EB92157C2C58A95F00388D73 /* SnowSeekerApp.swift in Sources */,
 			);
