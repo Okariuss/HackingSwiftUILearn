@@ -10,6 +10,7 @@ import SwiftUI
 struct ResortView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.dynamicTypeSize) var dynamicTypeSize
+    @Environment(Favorites.self) var favorites
     
     @State private var selectedFacility: Facility?
     @State private var showingFacility = false
@@ -59,6 +60,11 @@ struct ResortView: View {
                 .padding(.horizontal)
             }
         }
+        Button(favorites.contains(resort) ? "Remove from Favorites" : "Add to Favorites") {
+            favorites.contains(resort) ? favorites.remove(resort) : favorites.add(resort)
+        }
+        .buttonStyle(.borderedProminent)
+        .padding()
         .navigationTitle("\(resort.name), \(resort.country)")
         .navigationBarTitleDisplayMode(.inline)
         .alert(selectedFacility?.name ?? "More information", isPresented: $showingFacility, presenting: selectedFacility) { _ in
@@ -70,4 +76,5 @@ struct ResortView: View {
 
 #Preview {
     ResortView(resort: .example)
+        .environment(Favorites())
 }
