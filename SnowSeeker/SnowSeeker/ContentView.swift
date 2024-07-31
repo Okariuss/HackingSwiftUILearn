@@ -8,22 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    enum SortType: String, CaseIterable {
+        case defaultOrder = "Default"
+        case alphabetically = "Alphabetically"
+        case country = "Country"
+    }
+    
     @State private var searchText = ""
     @State private var favorites = Favorites()
+    @State private var selectedSortType: SortType = .defaultOrder
     
     let resorts: [Resort] = Bundle.main.decode("resorts.json")
     
-    var filteredResults: [Resort] {
+    var sortedResorts: [Resort] {
+        let sorted: [Resort]
+        switch selectedSortType {
+        case .defaultOrder:
+            sorted = resorts
+        case .alphabetically:
+            sorted = resorts.sorted { $0.name < $1.name }
+        case .country:
+            sorted = resorts.sorted { $0.country < $1.country }
+        }
+        
         if searchText.isEmpty {
-            resorts
+            return sorted
         } else {
-            resorts.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
+            return sorted.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
         }
     }
     
     var body: some View {
         NavigationSplitView {
-            List(filteredResults) { resort in
+            Picker("Sort by", selection: $selectedSortType) {
+                ForEach(SortType.allCases, id: \.self) { sortType in
+                    Text(sortType.rawValue)
+                }
+            }
+            .pickerStyle(.segmented)
+            .padding()
+            
+            List(sortedResorts) { resort in
                 NavigationLink(value: resort) {
                     HStack {
                         Image(resort.country)
